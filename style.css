@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: Helvetica, sans-serif;
+}
+header{
+    width: 90%;
+    padding: 1em;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1em;
+    background: rgb(12, 82, 59);
+    margin: 0 auto;
+}
+img{
+    border-radius: 1em;
+}
+a {
+    color: white;
+}
+a:hover{
+    color: rgb(0, 14, 9);
+}
+a:visited{
+    color: red;
+}
+main{
+    line-height: 2.5em;
+    position: absolute;
+    width: 100%;
+}
+section{
+    width: 70%;
+    margin-left:3.2em;
+    padding-bottom: 2em;
+    float: left;
+}
+div > h4 {
+    background: black;
+    color: white;
+}
+.right{
+    float: right;
+}
+aside{
+    width: 20%;
+    float: right;
+    background:rgb(11, 65, 47);
+    color: white;
+    margin-right:3.2em;
+    padding-top: 0.1em;
+    padding-left: 2em;
+}
+li{
+    list-style-type: none;
+}
