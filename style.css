@@ -3,7 +3,7 @@
     padding: 0;
     font: Helvetica, sans-serif;
 }
-header{
+header, form{
     width: 90%;
     padding: 1em;
     text-align: center;
@@ -53,4 +53,17 @@ aside{
 }
 li{
     list-style-type: none;
+}
+form{
+    width: 90%;
+    padding: 1em;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1em;
+    margin: 10px auto;
+    position: relative;
+    top: 1000px;
+}
+input{
+    margin: 10px;
 }
