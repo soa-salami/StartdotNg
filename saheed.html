@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Salami Saheed CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="saheed.css">
 </head>
 
 <body>
@@ -104,6 +104,16 @@
             </ol>
         </aside>
     </main>
+    <form action="" method="post" name="contactForm" onsubmit="return validate()"> 
+        <fieldset>
+            <legend>CONTACT FORM</legend>
+            Name: <input type="text" name="name" id="name" required> <br>
+            Email: <input type="email" name="email" id="email" required> <br>
+            Title: <input type="text" name="title" id="title" required> <br>
+            Message: <textarea name="" id="message" cols="30" rows="10" required></textarea> <br>
+            <input type="submit" value="SUBMIT">
+        </fieldset>
+    </form>
+    <script src="saheed.js"></script>
 </body>
-
 </html>
